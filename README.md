@@ -1,3 +1,3 @@
-# portfolio.github.io
+# Portfolio
 
-# Visit the portfolio by clicking this http://surl.li/gdizx
+# Link to my Portfolio http://surl.li/gdizx
