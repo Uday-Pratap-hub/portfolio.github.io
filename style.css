@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%; 
+}
+.teddy{
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1552083375-1447ce886485?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: 1500px 625px;
+    background-size: 100% 100%;
+    position:relative;
+}
+.title{
+    color: green;
+    padding: 5px;
+    border-radius: 100px;
+    border: orange solid 3px;
+    background-color: aqua;
+    font-weight:bolder;
+}
+h1{
+    color: yellow;
+    padding: 5px;
+    border-radius: 100px;
+    border: orange solid 3px;
+    background-color: green;
+    /* font-weight:bolder; */
+}
+nav{
+    display: flex;
+    font-size: 2rem;
+    justify-content:space-between;
+    padding: 4rem 9rem; 
+}
+.logo{
+    max-height: 7rem;
+}
+nav ul li{
+    display: inline-block;
+    padding: 1rem 2rem 1rem 5rem;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 0.3rem 0rem;
+}
+nav ul li a:hover{
+    color: rgba(106, 10, 130, 0.779);
+}
+
+.content{
+    position: absolute;
+    font-size: 2rem;
+    top: 30%;
+    left: 3%;
+}
+.about{
+    width: 100%;
+    height: 65vh;
+    background-color: rgb(219, 211, 246);
+    background-size: cover;
+    position: relative;
+
+}
+.aboutme{
+    display: flex;
+    font-size: 2.5rem;
+    padding: 0rem, 2rem, 2rem, 2rem;
+    text-align: center;
+    
+}
+div#aboutm{
+    text-align: center;
+    padding: 2rem;
+}
+.hi{
+    padding: 2rem;
+    height: 10rem ;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(147,132,134);
+    color: white;
+    padding: 1.2rem 1.2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(118,181,197);
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: rgb(240, 208, 237);
+    padding: 0.8rem;
+    
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 0.5rem;
+    padding: 1.2rem; 
+    background-color: rgb(203, 159, 181);
+  }
+.skills{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(227, 239, 246);
+
+}
+form{
+    background-color: rgb(203, 159, 181);
+    font-size: 1.8rem;
+}
+.floating-text{
+    font-size: 4.5rem;
+    font-weight: 900;
+    letter-spacing: 0.4rem;
+    color: rgb(214, 136, 175);
+    transform: translateY(0);
+    animation: fl1 3s infinite linear;
+}
+
+.floating-tex{
+    font-size: 4.5rem;
+    font-weight: 900;
+    letter-spacing: 0.4rem;
+    color: rgb(214, 136, 175);
+    transform: translateX(0);
+    animation: fl2 4s infinite linear;
+}
+.floating-te{
+    font-size: 4.5rem;
+    font-weight: 900;
+    letter-spacing: 0.4rem;
+    color: rgb(214, 136, 175);
+    transform: translateX(0);
+    animation: fl3 6s infinite linear;
+}
+
+@keyframes fl1{
+    30%{
+        transform: translateY(10%) rotate(4deg);
+    }
+    70%{
+        transform: translate(10%) rotate(-4deg);
+    }
+}
+@keyframes fl3{
+    30%{
+        transform: translateY(10%) rotate(6deg);
+    }
+    70%{
+        transform: translate(10%) rotate(-6deg);
+    }
+}
+
+@keyframes fl2{
+    30%{
+        transform: translateY(10%) rotate(5deg);
+    }
+    70%{
+        transform: translate(10%) rotate(-5deg);
+    }
+}
+.education{
+    height:100%;
+    width:100%;
+    background-color:rgb(247, 244, 221);
+}
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+ul{
+    display: flex;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 22rem 0rem 22rem; 
+
+}
+.t-list{
+    font-size: 1.5rem;
+}
